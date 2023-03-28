@@ -2,6 +2,6 @@
 React app tutorials for begineers
 
 Important Concepts
-#createContext
+#createContext()
 #context provider
-#
+#useContext()
