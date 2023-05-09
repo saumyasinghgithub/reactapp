@@ -3,6 +3,13 @@ import pages from "./pages";
 
 const CustomRoutes = [
     {
+        path:"/",
+        secure:false,
+        exact:true,
+        layout:layouts.DefaultLayout,
+        component:pages.Home,
+    },
+    {
         path:"*",
         secure:false,
         exact:true,
